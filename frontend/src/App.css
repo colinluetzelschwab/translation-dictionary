@@ -1,0 +1,136 @@
+header, footer {
+    background-color: #2425aa;
+    margin: 0;
+    padding: 10px 1px 10px 10px;
+}
+
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: #3b3fd8;
+    height: 50px;
+    flex-shrink: 0;
+    color: white;
+}
+
+header {
+    background-color: #2425aa;
+}
+
+header *, footer * {
+    color: white;
+}
+
+#title {
+    text-align: right;
+    padding-right: 50px;
+}
+
+.button {
+    background: black;
+    color: black;
+}
+
+.translationWrapper {
+    margin: 1%;
+    width: 98%;
+}
+
+.gridContainer {
+    align-items: center;
+}
+
+#addButton {
+    margin-left: 39%;
+}
+
+.alignRight {
+    text-align: right;
+    padding-right: 15px;
+}
+
+/* Alert */
+.alertCloseIcon {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+}
+
+/* Translation Table */
+.tableHead {
+    background: #2425aa;
+}
+
+.tableHeadField, .tableHeadField * {
+    color: white !important;
+    padding: 5px 3px !important;;
+}
+
+#tableHeadAppIDField {
+    padding-left: 10px !important;
+}
+
+.textIdField, .appIdField, .contextField, .stageField, .deField, .frField, .itField, .enField, .lastCallField, .buttonField {
+    padding: 3px !important;
+}
+
+.textIdInput, .appIdInput, .contextInput, .stageInput, .deInput, .frInput, .itInput, .enInput, .lastCallInput {
+    width: 100%;
+}
+
+.appIdField {
+    width: 7%;
+    padding-left: 10px !important;
+}
+
+.textIdField {
+    width: 20%;
+}
+
+.lastCallField {
+    width: 7%;
+}
+
+.lastCallInput * {
+    text-align: center;
+}
+
+.tableRow {
+    height: 60px !important;
+}
+
+#saveButton {
+    width: 90px;
+}
+
+#deleteButton {
+    width: 30px;
+}
+
+/* Search */
+.searchContainer {
+    padding: 1%;
+    align-items: center;
+}
+
+.searchInputField {
+    width: 89%;
+}
