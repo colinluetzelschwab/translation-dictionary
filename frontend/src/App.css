@@ -132,5 +132,14 @@ header *, footer * {
 }
 
 .searchInputField {
-    width: 89%;
+    padding: 10px;
 }
+
+.newTranslationInputField {
+    padding: 10px;
+}
+
+.newTranslationEntryButton {
+    padding-right: 10px;
+}
+

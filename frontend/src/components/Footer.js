@@ -1,18 +1,41 @@
 import '@axa-ch/footer-small';
 
 export default function Footer() {
-    // @ts-ignore
+
     return (
-        <axa-footer-small
-            firstLanguage="DE">
-            {/*<Grid container>*/}
-            {/*    <Grid item xs>*/}
-            {/*        <h5>Translation-Dictionary</h5>*/}
-            {/*    </Grid>*/}
-            {/*    <Grid item xs className="alignRight">*/}
-            {/*        <h5>AXA</h5>*/}
-            {/*    </Grid>*/}
-            {/*</Grid>*/}
-        </axa-footer-small>
+        <div>
+            <axa-footer-small>
+                <a
+                    slot="language-item"
+                    href="https://axa.ch/de/privatkunden.html"
+                    className="m-footer-small__link--active"
+                >
+                    DE
+                </a>
+                <a slot="language-item" href="https://axa.ch/fr/particuliers.html">
+                    FR
+                </a>
+                <a slot="language-item" href="https://axa.ch/it/clienti-privati.html">
+                    IT
+                </a>
+                <a slot="language-item" href="https://axa.ch/en/private-customers.html">
+                    EN
+                </a>
+                <a
+                    slot="disclaimer-item"
+                    href="https://axa.ch/en/information/terms-of-use.html"
+                >
+                    Terms of use
+                </a>
+                <a
+                    slot="disclaimer-item"
+                    href="https://axa.ch/en/information/data-protection.html"
+                >
+                    Data protection
+                </a>
+                <span slot="copyright">&copy; 2019 AXA Insurance Ltd.</span>
+            </axa-footer-small>
+        </div>
+
     );
 }

@@ -4,7 +4,11 @@
   "private": true,
   "dependencies": {
     "@axa-ch/button": "^8.0.3",
+    "@axa-ch/footer": "^6.0.3",
     "@axa-ch/footer-small": "^7.0.3",
+    "@axa-ch/heading": "^5.0.3",
+    "@axa-ch/input-text": "^6.1.0",
+    "@axa-ch/modal": "^4.0.3",
     "@axa-ch/table": "^5.0.3",
     "@axa-ch/table-sortable": "^5.1.0",
     "@material-ui/core": "^4.12.4",
